@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="metadata.movie.simple" name="simple movie" version="1.0.0" provider-name="Tim">
+	<requires>
+		<import addon="xbmc.metadata" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.metadata.scraper.movies" language="zh" library="simple.xml"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Simple Movie Scraper</summary>
+		<summary lang="zh">简单电影刮削器</summary>
+		<description lang="en">Scraper any movie just by file name.</description>
+		<description lang="zh">使用文件名刮削任意电影。</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="metadata.tvshow.simple" name="Simple TVShow" version="1.0.0" provider-name="Tim">
+	<requires>
+		<import addon="xbmc.metadata" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.metadata.scraper.tvshows" language="zh" library="simple.xml"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Simple TVShow Scraper</summary>
+		<summary lang="zh">简单剧集刮削器</summary>
+		<description lang="en">Scraper any TVShow just by file name.</description>
+		<description lang="zh">使用文件名刮削任意剧集。</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
