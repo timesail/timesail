@@ -56,11 +56,11 @@
 	</extension>
 </addon>
 
-<addon id="repository.timesail" name="timesail repository" version="1.0.0" provider-name="Tim">
+<addon id="repository.timesail" name="timesail repository" version="1.0.1" provider-name="Tim">
 	<extension point="xbmc.addon.repository">
 		<info>https://github.com/timesail/timesail/raw/master/addons.xml</info>
 		<checksum>https://github.com/timesail/timesail/raw/master/addons.xml.md5</checksum>
-		<datadir>https://github.com/timesail/timesail/raw/master</datadir>
+		<datadir zip="true">https://github.com/timesail/timesail/raw/master</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>timesail repository</summary>
