@@ -56,6 +56,23 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.kiwi" name="KiWi视频" version="3.0.7" provider-name="Timothy">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.simplejson" version="3.3.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">KiWi Video Plugin</summary>
+		<summary lang="zh">KiWi视频插件</summary>
+		<description lang="en">The content of this addon is collected from iQIYI and cannot guarantee the effectiveness of all the content. It is only for the learning and communication of addon development. If you want to get a better experience of watching movies, please download and install the official APP and purchase value-added membership services.</description>
+		<description lang="zh">本插件仅供学习交流，插件内容收集于爱奇艺网站，并非官方APP，无法保证所有内容的有效性及完整性，如想获得更好的观影体验请安装官方APP并购买会员增值服务。</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.timesail" name="timesail repository" version="1.0.1" provider-name="Tim">
 	<extension point="xbmc.addon.repository">
 		<info compressed="true">https://github.com/timesail/timesail/raw/master/addons.xml</info>
