@@ -112,7 +112,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuaryplus" version="2.1.18" name="Estuary Plus" provider-name="phil65, Ichabod Fletchman, Tim">
+<addon id="skin.estuaryplus" version="2.1.19" name="Estuary Plus" provider-name="phil65, Ichabod Fletchman, Tim">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="xbmc.python" version="2.23.0" />
