@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="metadata.album.xiami.com" name="Xiami Album" version="1.0.0" provider-name="Taxigps, Tim">
+	<requires>
+		<import addon="xbmc.metadata" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.metadata.scraper.albums" language="zh" library="xiami.xml"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Xiami Album Scraper</summary>
+		<summary lang="zh">虾米音乐专辑刮削器</summary>
+		<description lang="en">Download album information from xiami.com</description>
+		<description lang="zh">从虾米音乐获取音乐专辑资料。</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="metadata.artist.xiami.com" name="Xiami Artist" version="1.0.0" provider-name="Taxigps, Tim">
+	<requires>
+		<import addon="xbmc.metadata" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.metadata.scraper.artists" language="zh" library="xiami.xml"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Xiami Artist Scraper</summary>
+		<summary lang="zh">虾米音乐歌手刮削器</summary>
+		<description lang="en">Download artist information from xiami.com</description>
+		<description lang="zh">从虾米音乐获取音乐歌手资料。</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="metadata.movie.douban.com" name="Douban Movie" version="1.2.7" provider-name="Tim">
 	<requires>
 		<import addon="xbmc.metadata" version="2.1.0"/>
