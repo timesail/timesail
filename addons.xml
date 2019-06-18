@@ -42,7 +42,7 @@
 	</extension>
 </addon>
 
-<addon id="metadata.mv.xiami.com" name="Xiami MV" version="1.0.0" provider-name="Tim">
+<addon id="metadata.mv.xiami.com" name="Xiami MV" version="1.0.1" provider-name="Tim">
 	<requires>
 		<import addon="xbmc.metadata" version="2.1.0"/>
 	</requires>
