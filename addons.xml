@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="metadata.movie.douban.com" name="douban movie" version="1.2.6" provider-name="Tim">
+<addon id="metadata.movie.douban.com" name="Douban Movie" version="1.2.7" provider-name="Tim">
 	<requires>
 		<import addon="xbmc.metadata" version="2.1.0"/>
 	</requires>
@@ -28,7 +28,35 @@
 	</extension>
 </addon>
 
-<addon id="metadata.tv.douban.com" name="douban TV" version="1.2.3" provider-name="Tim">
+<addon id="metadata.musicvideo.simple" name="Simple Music Video" version="1.0.0" provider-name="Tim">
+	<requires>
+		<import addon="xbmc.metadata" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.metadata.scraper.musicvideos" language="zh" library="simple.xml"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Simple Music Video Scraper</summary>
+		<summary lang="zh">简单音乐电视刮削器</summary>
+		<description lang="en">Universal scraper, scrap any music video just by file name (no poster).</description>
+		<description lang="zh">万能刮削器，使用文件名刮削任意音乐电视(无海报)。</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="metadata.mv.xiami.com" name="Xiami MV" version="1.0.0" provider-name="Tim">
+	<requires>
+		<import addon="xbmc.metadata" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.metadata.scraper.musicvideos" language="zh" library="xiami.xml"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Xiami MV Scraper</summary>
+		<summary lang="zh">虾米音乐电视刮削器</summary>
+		<description lang="en">Download mv information from xiami.com</description>
+		<description lang="zh">从虾米音乐获取音乐电视资料。</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="metadata.tv.douban.com" name="Douban TV" version="1.2.4" provider-name="Tim">
 	<requires>
 		<import addon="xbmc.metadata" version="2.1.0"/>
 	</requires>
