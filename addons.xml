@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="metadata.album.xiami.com" name="Xiami Album" version="1.0.0" provider-name="Taxigps, Tim">
+<addon id="metadata.album.xiami.com" name="Xiami Album" version="1.0.1" provider-name="Taxigps, Tim">
 	<requires>
 		<import addon="xbmc.metadata" version="2.1.0"/>
 	</requires>
@@ -14,7 +14,7 @@
 	</extension>
 </addon>
 
-<addon id="metadata.artist.xiami.com" name="Xiami Artist" version="1.0.0" provider-name="Taxigps, Tim">
+<addon id="metadata.artist.xiami.com" name="Xiami Artist" version="1.0.1" provider-name="Taxigps, Tim">
 	<requires>
 		<import addon="xbmc.metadata" version="2.1.0"/>
 	</requires>
