@@ -112,6 +112,23 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.bingdou" name="冰豆视频" version="1.0.0" provider-name="Timothy">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.simplejson" version="3.3.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Bingdou Video Plugin</summary>
+		<summary lang="zh">冰豆视频插件</summary>
+		<description lang="en">This addon is only for the learning and communication of addon development. If you want to get a better experience, browse "bingdou.net".</description>
+		<description lang="zh">本插件仅供学习交流，如想获得更好的观影体验及更多的精彩内容请浏览冰豆网或安装各大视频网站官方APP并购买会员增值服务。</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.kiwi" name="KiWi视频" version="3.0.7" provider-name="Timothy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
