@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="metadata.album.xiami.com" name="Xiami Album" version="1.0.1" provider-name="Taxigps, Tim">
+<addon id="metadata.album.xiami.com" name="Xiami Album" version="1.0.2" provider-name="Tim">
 	<requires>
 		<import addon="xbmc.metadata" version="2.1.0"/>
 	</requires>
@@ -14,7 +14,7 @@
 	</extension>
 </addon>
 
-<addon id="metadata.artist.xiami.com" name="Xiami Artist" version="1.0.1" provider-name="Taxigps, Tim">
+<addon id="metadata.artist.xiami.com" name="Xiami Artist" version="1.0.2" provider-name="Tim">
 	<requires>
 		<import addon="xbmc.metadata" version="2.1.0"/>
 	</requires>
@@ -28,7 +28,7 @@
 	</extension>
 </addon>
 
-<addon id="metadata.movie.douban.com" name="Douban Movie" version="1.2.7" provider-name="Tim">
+<addon id="metadata.movie.douban.com" name="Douban Movie" version="1.2.8" provider-name="Tim">
 	<requires>
 		<import addon="xbmc.metadata" version="2.1.0"/>
 	</requires>
@@ -42,7 +42,7 @@
 	</extension>
 </addon>
 
-<addon id="metadata.movie.simple" name="Simple Movie" version="1.0.2" provider-name="Tim">
+<addon id="metadata.movie.simple" name="Simple Movie" version="1.0.3" provider-name="Tim">
 	<requires>
 		<import addon="xbmc.metadata" version="2.1.0"/>
 	</requires>
@@ -70,7 +70,7 @@
 	</extension>
 </addon>
 
-<addon id="metadata.mv.xiami.com" name="Xiami MV" version="1.0.2" provider-name="Tim">
+<addon id="metadata.mv.xiami.com" name="Xiami MV" version="1.0.3" provider-name="Tim">
 	<requires>
 		<import addon="xbmc.metadata" version="2.1.0"/>
 	</requires>
@@ -84,7 +84,7 @@
 	</extension>
 </addon>
 
-<addon id="metadata.tv.douban.com" name="Douban TV" version="1.2.4" provider-name="Tim">
+<addon id="metadata.tv.douban.com" name="Douban TV" version="1.2.5" provider-name="Tim">
 	<requires>
 		<import addon="xbmc.metadata" version="2.1.0"/>
 	</requires>
@@ -98,7 +98,7 @@
 	</extension>
 </addon>
 
-<addon id="metadata.tvshow.simple" name="Simple TVShow" version="1.0.1" provider-name="Tim">
+<addon id="metadata.tvshow.simple" name="Simple TVShow" version="1.0.2" provider-name="Tim">
 	<requires>
 		<import addon="xbmc.metadata" version="2.1.0"/>
 	</requires>
@@ -112,7 +112,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.bingdou" name="冰豆视频" version="1.0.0" provider-name="Timothy">
+<addon id="plugin.video.bingdou" name="冰豆视频" version="1.0.3" provider-name="Timothy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -123,13 +123,13 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Bingdou Video Plugin</summary>
 		<summary lang="zh">冰豆视频插件</summary>
-		<description lang="en">This addon is only for the learning and communication of addon development. If you want to get a better experience, browse "bingdou.net".</description>
+		<description lang="en">This addon is only for the learning and communication of addon development. If you want to get a better experience, browse "bingdou.net", or download and install any video official APP and purchase value-added membership services..</description>
 		<description lang="zh">本插件仅供学习交流，如想获得更好的观影体验及更多的精彩内容请浏览冰豆网或安装各大视频网站官方APP并购买会员增值服务。</description>
 		<platform>all</platform>
 	</extension>
 </addon>
 
-<addon id="plugin.video.kiwi" name="KiWi视频" version="3.0.7" provider-name="Timothy">
+<addon id="plugin.video.kiwi" name="KiWi视频" version="3.0.8" provider-name="Timothy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -140,8 +140,25 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">KiWi Video Plugin</summary>
 		<summary lang="zh">KiWi视频插件</summary>
-		<description lang="en">The content of this addon is collected from iQIYI and cannot guarantee the effectiveness of all the content. It is only for the learning and communication of addon development. If you want to get a better experience of watching movies, please download and install the official APP and purchase value-added membership services.</description>
-		<description lang="zh">本插件仅供学习交流，插件内容收集于爱奇艺网站，并非官方APP，无法保证所有内容的有效性及完整性，如想获得更好的观影体验请安装官方APP并购买会员增值服务。</description>
+		<description lang="en">The content of this addon is collected from iQIYI and cannot guarantee the effectiveness of all the content. It is only for the learning and communication of addon development. If you want to get a better experience of watching movies, please download and install the iQIYI official APP and purchase value-added membership services.</description>
+		<description lang="zh">本插件仅供学习交流，插件内容收集于爱奇艺网站，并非官方APP，无法保证所有内容的有效性及完整性，如想获得更好的观影体验请安装爱奇艺官方APP并购买会员增值服务。</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.hdpfans.xbmc-addons-chinese" name="HDPfans中文插件库" version="1.1.3" provider-name="HDPfans">
+	<extension point="xbmc.addon.repository" name="HDPfans Add-on Repository">
+		<info compressed="false">http://xbmc.hdpfans.com/addons.xml</info>
+		<checksum>http://xbmc.hdpfans.com/addons.xml.md5</checksum>
+		<datadir zip="true">http://xbmc.hdpfans.com/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from HDPfans repository</summary>
+		<summary lang="zh">从HDPfans脚本库安装XBMC扩展功能</summary>
+		<description>Download and install add-ons for HDPfans addon repository.If you are interested in XBMC plugins, please join us: www.hdpfans.com.</description>
+		<description lang="zh">从HDPfans插件库下载安装XBMC扩展功能模块。如果您对xmbc插件开发感兴趣请加入我们：www.hdpfans.com。</description>
+		<disclaimer>All media is collected from Internet.</disclaimer>
+		<disclaimer lang="zh">您所看到的所有内容均来自互联网聚合</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -161,6 +178,23 @@
 		<disclaimer lang="zh">本库中扩展功能模块不完全由Tim开发，对他人提交的内容不承担责任。</disclaimer>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="repository.xbmc-addons-chinese" name="Chinese Add-ons" version="1.2.1" provider-name="Taxigps">
+    <extension point="xbmc.addon.repository" name="Chinese Add-ons">
+        <info compressed="true">https://github.com/taxigps/xbmc-addons-chinese/raw/master/addons.xml</info>
+        <checksum>https://github.com/taxigps/xbmc-addons-chinese/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/taxigps/xbmc-addons-chinese/raw/master/repo</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Chinese Add-ons Repository</summary>
+        <summary lang="zh">面向中文用户的插件库</summary>
+        <description>Download and install add-ons from xbmc-addons-chinese addon repository.[CR][CR]By using this Repository you will be able to take advantage of our cutting edge features developed for chinese people.</description>
+        <description lang="zh">从xbmc-addons-chinese库下载安装插件。[CR][CR]通过使用这个程序库，你将能够分享我们为中文用户开发的插件。</description>
+        <disclaimer>Taxigps did not make all the add-ons on this repository and is not responsible for their content</disclaimer>
+        <disclaimer lang="zh">本库中扩展功能模块不完全由Taxigps开发，对他人提交的内容不承担责任</disclaimer>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="script.module.simplejson"
