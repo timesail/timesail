@@ -28,7 +28,7 @@
 	</extension>
 </addon>
 
-<addon id="metadata.javbus.com" name="Javbus" version="2.0.7" provider-name="Timothy">
+<addon id="metadata.javbus.com" name="Javbus" version="2.0.8" provider-name="Timothy">
 	<requires>
 		<import addon="xbmc.metadata" version="1.0"/>
 	</requires>
