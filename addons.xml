@@ -267,7 +267,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuaryplus" version="2.1.20" name="Estuary Plus" provider-name="phil65, Ichabod Fletchman, Tim">
+<addon id="skin.estuaryplus" version="2.1.21" name="Estuary Plus" provider-name="phil65, Ichabod Fletchman, Tim">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="xbmc.python" version="2.23.0" />
@@ -287,7 +287,7 @@
 		<menu id="kodi.core.main">
 			<item library="resources/lib/show_infoplus.py">
 				<label>$LOCALIZE[131095]</label>
-				<visible>String.IsEqual(Window(1110).Property(ContextMenu),Plus) + [String.IsEqual(ListItem.DBtype,movie) | String.IsEqual(ListItem.DBtype,set) | String.IsEqual(ListItem.DBtype,tvshow) | String.IsEqual(ListItem.DBtype,season) | String.IsEqual(ListItem.DBtype,episode)]</visible>
+				<visible>String.IsEqual(Window(1110).Property(ContextMenu),Plus) + [String.IsEqual(ListItem.DBtype,movie) | String.IsEqual(ListItem.DBtype,tvshow) | String.IsEqual(ListItem.DBtype,season) | String.IsEqual(ListItem.DBtype,episode)]</visible>
 			</item>
 		</menu>
 	</extension>
