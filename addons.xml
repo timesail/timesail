@@ -228,6 +228,20 @@
     </extension>
 </addon>
 
+<addon id="script.estuary.reboot-to-emmc" name="Reboot to eMMC/NAND for estuary" version="1.0.0" provider-name="Tim">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Add "Reboot to eMMC/NAND" button to shutdown menu</summary>
+		<summary lang="zh">添加 "Reboot to eMMC/NAND" 按钮到关机菜单</summary>
+		<platform>linux</platform>
+	</extension>
+</addon>
+
 <addon id="script.module.simplejson"
        name="simplejson"
        version="3.3.0"
