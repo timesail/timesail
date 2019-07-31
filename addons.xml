@@ -228,7 +228,7 @@
     </extension>
 </addon>
 
-<addon id="script.estuary.reboot-to-emmc" name="Reboot to eMMC/NAND for estuary" version="1.0.0" provider-name="Tim">
+<addon id="script.estuary.reboot-to-emmc" name="Reboot to eMMC/NAND for Estuary" version="1.0.0" provider-name="Tim">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
