@@ -126,7 +126,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.bingdou" name="冰豆视频" version="1.0.4" provider-name="Timothy">
+<addon id="plugin.video.bingdou" name="冰豆视频" version="1.1.5" provider-name="Timothy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -143,7 +143,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.haoqu" name="好趣电视" version="1.0.0" provider-name="Timothy">
+<addon id="plugin.video.haoqu" name="好趣电视" version="1.0.1" provider-name="Timothy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -160,7 +160,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.kiwi" name="KiWi视频" version="3.0.8" provider-name="Timothy">
+<addon id="plugin.video.kiwi" name="KiWi视频" version="3.0.9" provider-name="Timothy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.simplejson" version="3.3.0"/>
