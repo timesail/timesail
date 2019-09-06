@@ -228,6 +228,32 @@
     </extension>
 </addon>
 
+<addon
+  id="resource.language.zh_cn"
+  version="9.0.15"
+  name="Chinese (Simple)"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="zh_CN">
+    <charsets>
+      <gui unicodefont="true">CP936</gui>
+      <subtitle>CP936</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Chinese (Simple) language pack</summary>
+    <description lang="en">Chinese (Simple) version of all texts used in Kodi.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="script.estuary.reboot-to-emmc" name="Reboot to eMMC/NAND for Estuary" version="1.0.0" provider-name="Tim">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -244,10 +270,10 @@
 
 <addon id="script.module.simplejson"
        name="simplejson"
-       version="3.3.0"
-       provider-name="Martijn">
+       version="3.16.1"
+       provider-name="Bob Ippolito">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="xbmc.python" version="2.14.0"/>
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
@@ -256,10 +282,10 @@
     <language></language>
     <summary lang="en">Simple, fast, extensible JSON encoder/decoder for Python</summary>
     <description lang="en">Simple, fast, extensible JSON encoder/decoder for Python</description>
-    <disclaimer lang="en">Code taken from https://pypi.python.org/pypi/simplejson/</disclaimer>
+    <disclaimer lang="en">Code taken from https://pypi.org/project/simplejson/</disclaimer>
     <license>MIT License, Academic Free License v. 2.1</license>
-    <website>https://pypi.python.org/pypi/simplejson/</website>
-    <source>https://pypi.python.org/pypi/simplejson/</source>
+    <website>https://pypi.org/project/simplejson/</website>
+    <source>https://github.com/simplejson/simplejson</source>
   </extension>
 </addon>
 
@@ -281,7 +307,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuaryplus" version="2.1.22" name="Estuary Plus" provider-name="phil65, Ichabod Fletchman, Tim">
+<addon id="skin.estuaryplus" version="2.1.23" name="Estuary Plus" provider-name="phil65, Ichabod Fletchman, Guilouz, Tim">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="xbmc.python" version="2.23.0" />
@@ -297,14 +323,14 @@
 		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
 		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
 	</extension>
-	<extension point="kodi.context.item">
+	<!--<extension point="kodi.context.item">
 		<menu id="kodi.core.main">
 			<item library="resources/lib/show_infoplus.py">
 				<label>$LOCALIZE[131095]</label>
 				<visible>String.IsEqual(Window(1110).Property(ContextMenu),Plus) + [String.IsEqual(ListItem.DBtype,movie) | String.IsEqual(ListItem.DBtype,tvshow) | String.IsEqual(ListItem.DBtype,season) | String.IsEqual(ListItem.DBtype,episode)]</visible>
 			</item>
 		</menu>
-	</extension>
+	</extension>-->
 	<extension point="xbmc.addon.metadata">
 		<summary lang="af_ZA">Estuary oortreksel deur phil65. (Kodi se bestek oortreksel)</summary>
 		<summary lang="bg_BG">Estuary облик от phil65 и Piers. (стандартния облик на Kodi)</summary>
