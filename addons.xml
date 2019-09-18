@@ -143,7 +143,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.bowan" name="播王视频" version="1.0.0" provider-name="Timothy">
+<addon id="plugin.video.bowan" name="播王視頻" version="1.0.1" provider-name="Timothy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -154,9 +154,9 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Bowan Video Plugin</summary>
-		<summary lang="zh">播王视频插件</summary>
+		<summary lang="zh">播王視頻插件</summary>
 		<description lang="en">This addon is only for the learning and communication of addon development. Please browse "bowan.su", or download and install official APP to get a better experience.</description>
-		<description lang="zh">本插件仅供学习交流，如想获得更好的观影体验及更多的精彩内容请浏览播王网站或安装官方APP。</description>
+		<description lang="zh">本插件僅供學習交流，如想獲得更好的觀影體驗及更多的精彩內容請瀏覽播王網站或安裝官方APP。</description>
 		<platform>all</platform>
 	</extension>
 </addon>
