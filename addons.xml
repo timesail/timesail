@@ -143,7 +143,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.bowan" name="播王視頻" version="1.0.1" provider-name="Timothy">
+<addon id="plugin.video.bowan" name="播王視頻" version="1.0.2" provider-name="Timothy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -156,7 +156,7 @@
 		<summary lang="en">Bowan Video Plugin</summary>
 		<summary lang="zh">播王視頻插件</summary>
 		<description lang="en">This addon is only for the learning and communication of addon development. Please browse "bowan.su", or download and install official APP to get a better experience.</description>
-		<description lang="zh">本插件僅供學習交流，如想獲得更好的觀影體驗及更多的精彩內容請瀏覽播王網站或安裝官方APP。</description>
+		<description lang="zh">本插件僅供學習交流，如想獲得更好的觀影體驗及更多的精彩內容請瀏覽播王網站(bowan.su)或安裝官方APP。</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -270,6 +270,22 @@
       <icon>icon.png</icon>
     </assets>
   </extension>
+</addon>
+
+<addon id="script.cachecleaner" name="缓存清理工具" version="1.0.2" provider-name="Tim">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Cache Cleaner</summary>
+		<summary lang="zh">缓存清理工具</summary>
+		<description lang="en">Clean the image cache of userdata under the Thumbnails path.</description>
+		<description lang="zh">清理用户数据的Thumbnails文件夹的缩略图缓存。</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="script.estuary.reboot-to-emmc" name="Reboot to eMMC/NAND for Estuary" version="1.0.0" provider-name="Tim">
