@@ -126,7 +126,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.bingdou" name="冰豆视频" version="1.1.7" provider-name="Timothy">
+<addon id="plugin.video.bingdou" name="冰豆视频" version="1.1.8" provider-name="Timothy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -138,12 +138,12 @@
 		<summary lang="en">Bingdou Video Plugin</summary>
 		<summary lang="zh">冰豆视频插件</summary>
 		<description lang="en">This addon is only for the learning and communication of addon development. If you want to get a better experience, please browse "bingdou.net", or download and install any video official APP and purchase value-added membership services.</description>
-		<description lang="zh">本插件仅供学习交流，如想获得更好的观影体验及更多的精彩内容请浏览冰豆网或安装各大视频网站官方APP并购买会员增值服务。</description>
+		<description lang="zh">本插件仅供学习交流，如想获得更好的观影体验及更多的精彩内容请浏览冰豆网(bingdou.net)或安装各大视频网站官方APP并购买会员增值服务。</description>
 		<platform>all</platform>
 	</extension>
 </addon>
 
-<addon id="plugin.video.bowan" name="播王視頻" version="1.0.2" provider-name="Timothy">
+<addon id="plugin.video.bowan" name="播王視頻" version="1.0.3" provider-name="Timothy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.simplejson" version="3.3.0"/>
