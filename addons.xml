@@ -195,6 +195,23 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.meijutt" name="美剧天堂" version="1.0.0" provider-name="Timothy">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.simplejson" version="3.3.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">MeiJuTT Video Plugin</summary>
+		<summary lang="zh">美剧天堂视频插件</summary>
+		<description lang="en">This addon is only for the learning and communication of addon development. If you want to get a better experience, please browse "meijutt.com".</description>
+		<description lang="zh">本插件仅供学习交流，如想获得更好的观影体验及更多的精彩内容请浏览美剧天堂网站(meijutt.com)。</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.hdpfans.xbmc-addons-chinese" name="HDPfans中文插件库" version="1.1.3" provider-name="HDPfans">
 	<extension point="xbmc.addon.repository" name="HDPfans Add-on Repository">
 		<info compressed="false">http://xbmc.hdpfans.com/addons.xml</info>
