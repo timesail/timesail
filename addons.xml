@@ -126,10 +126,11 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.bingdou" name="冰豆视频" version="1.1.8" provider-name="Timothy">
+<addon id="plugin.video.bingdou" name="冰豆视频" version="1.1.9" provider-name="Timothy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.simplejson" version="3.3.0"/>
+		<import addon="script.module.chardet" version="3.0.4"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -161,10 +162,11 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.haoqu" name="好趣电视" version="1.0.2" provider-name="Timothy">
+<addon id="plugin.video.haoqu" name="好趣电视" version="1.0.3" provider-name="Timothy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.simplejson" version="3.3.0"/>
+		<import addon="script.module.chardet" version="3.0.4"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
