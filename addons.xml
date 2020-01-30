@@ -56,6 +56,20 @@
 	</extension>
 </addon>
 
+<addon id="metadata.movie.mtime.com" name="时光电影" version="1.0.0" provider-name="Tim">
+	<requires>
+		<import addon="xbmc.metadata" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.metadata.scraper.movies" language="zh" library="mtime.xml"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Mtime Movie Scraper</summary>
+		<summary lang="zh">时光电影刮削器</summary>
+		<description lang="en">Download movie information from mtime.com</description>
+		<description lang="zh">从时光网获取电影资料。</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="metadata.movie.simple" name="Simple Movie" version="1.0.3" provider-name="Tim">
 	<requires>
 		<import addon="xbmc.metadata" version="2.1.0"/>
@@ -197,7 +211,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.meijutt" name="美剧天堂" version="1.0.0" provider-name="Timothy">
+<addon id="plugin.video.meijutt" name="美剧天堂" version="1.0.1" provider-name="Timothy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.simplejson" version="3.3.0"/>
